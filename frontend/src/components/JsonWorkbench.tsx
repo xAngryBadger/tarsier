@@ -66,8 +66,7 @@ export function JsonWorkbench() {
   const isValid = parsed !== null
 
   return (
-    <main className="max-w-7xl mx-auto px-6 pt-20 pb-16 lg:px-8">
-      <motion.div
+    <motion.div
         initial="hidden"
         animate="visible"
         variants={staggerContainer}
@@ -200,7 +199,6 @@ export function JsonWorkbench() {
             </div>
           </motion.div>
         )}
-      </motion.div>
-    </main>
-  )
+</motion.div>
+)
 }

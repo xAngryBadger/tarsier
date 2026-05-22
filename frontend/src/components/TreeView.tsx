@@ -84,12 +84,6 @@ function TreeNodeItem({ node, defaultExpanded = false }: { node: TreeNode; defau
           </div>
         </div>
       )}
-
-      {hasChildren && expanded && node.depth > 0 && (
-        <div style={{ paddingLeft: '1.25em' }} className="px-1">
-          <span className="text-[var(--color-text-muted)]">{braceClose}</span>
-        </div>
-      )}
     </div>
   )
 }
